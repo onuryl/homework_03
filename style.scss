@@ -1,0 +1,85 @@
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    margin: 0;
+    background-image: url('assets/main.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 1064px;
+
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8B4513;
+    color: white;
+    height: 40px;
+    width: 100%;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+
+}
+
+.x {
+    position: absolute;
+    left: 99%;
+}
+
+.header {
+    margin: 24px 0 428px 42px;
+    display: flex;
+    justify-content: space-between;
+
+    &_logo {
+        color: #FFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 130%;
+    }
+
+    &_nav {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+
+        a:link {
+            text-decoration: none;
+        }
+    }
+
+    &_nav-list {
+        color: white;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    &_left {
+        display: flex;
+        align-items: center;
+        margin-right: 53px;
+    }
+
+    &_search{
+        width: 214px;
+        height: 33px;
+    }
+}
